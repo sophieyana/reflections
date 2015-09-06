@@ -5,6 +5,7 @@ It initializes an empty Git repository. It will be used to do commits and see fi
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 staging area: intermediate area; allows you to specify exactly what changes should be committed.
+staging area is a copy of the most recent commit until I had changes to it.
 
 How to change user name and user email?
 
@@ -19,4 +20,9 @@ You can suppress this message by setting them explicitly:
 After doing this, you may fix the identity used for this commit with:
 
     git commit --amend --reset-author
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+The staging area allows you to see the difference between your working directory and the staging area (which represent the last commit). It will therefore help to see if there is (enough) significant/logical changes to make a commit. 
+
 
