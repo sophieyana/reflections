@@ -1,0 +1,22 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+It initializes an empty Git repository. It will be used to do commits and see files history.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+staging area: intermediate area; allows you to specify exactly what changes should be committed.
+
+How to change user name and user email?
+
+Committer: syana <syana@syana-macbookair.roam.corp.google.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
