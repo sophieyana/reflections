@@ -33,3 +33,6 @@ How do the diagrams help you visualize the branch structure?
 
 Helps to visualize the parents of each commit. And the command git log --graph --oneline gives us a visualization of the tree and therefore the different branches.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches together results in a combined version of the two branches. We represent it in the diagram this way so we can see who is the parent of each commit.
