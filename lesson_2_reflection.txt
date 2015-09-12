@@ -36,3 +36,13 @@ Helps to visualize the parents of each commit. And the command git log --graph -
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 Merging two branches together results in a combined version of the two branches. We represent it in the diagram this way so we can see who is the parent of each commit.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+automatic merging:
+pros: automatic, quick, no mistake
+cons: can’t resolve merge conflicts
+
+merge manually:
+pros: you are the expert on the files so you you can solve merge conflicts
+cons: prone to mistake, not understanding the conflict easily
