@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+To allow syncing data between two repositories, Git has a concept of remote repository. 
+This allow you to store location of the repository that you will want to send and receive commits to and from.
+You would use a repository to make your changes public once commits are fully ready.
