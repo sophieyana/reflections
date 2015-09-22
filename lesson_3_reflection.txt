@@ -7,3 +7,7 @@ You would use a repository to make your changes public once commits are fully re
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 You might want to make sure commits are fully ready before putting back into local repository. You can also chose what you want to pull into the local repository. 
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Branches happen on a single repository. Cloning involves taking an existing repository and make one just like it. The original repository can be remote or local. Fork is cloning a repository from GitHub to GitHub.
