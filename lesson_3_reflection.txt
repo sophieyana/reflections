@@ -3,3 +3,7 @@ When would you want to use a remote repository rather than keeping all your work
 To allow syncing data between two repositories, Git has a concept of remote repository. 
 This allow you to store location of the repository that you will want to send and receive commits to and from.
 You would use a repository to make your changes public once commits are fully ready.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+You might want to make sure commits are fully ready before putting back into local repository. You can also chose what you want to pull into the local repository. 
