@@ -15,3 +15,8 @@ Branches happen on a single repository. Cloning involves taking an existing repo
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 If you have different changes on each repository (locally and remote). You can update just the local copy of the remote branch, leaving the actual local version alone, by running the command “git fetch”. Update the local coy of the remote branch can be nice so you can use git log and git diff to see what changes were introduced both on the local and remote repositories (useful when you are offline). You don’t have to combine the commits right away.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+We would use two different repositories and make changes on our own and review together each file to combine the codes.
+The merge would not be automatic and when there are many lines of code, it can become hard to compare two files.
